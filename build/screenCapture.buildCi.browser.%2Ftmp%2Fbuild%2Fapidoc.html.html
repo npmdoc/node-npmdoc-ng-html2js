@@ -63,37 +63,6 @@
 
         </li>
 
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ng-html2js.html2js">
-            function <span class="apidocSignatureSpan">ng-html2js.</span>html2js
-            <span class="apidocSignatureSpan">(fileName, content, moduleName, moduleVar)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ng-html2js.toString">
-            function <span class="apidocSignatureSpan">ng-html2js.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.ng-html2js.toString">module ng-html2js.toString</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.ng-html2js.toString.toString">
-            function <span class="apidocSignatureSpan">ng-html2js.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
     </ol></li>
 
 </ol></div>
@@ -127,69 +96,6 @@
 
   return output;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ng-html2js.html2js" id="apidoc.element.ng-html2js.html2js">
-        function <span class="apidocSignatureSpan">ng-html2js.</span>html2js
-        <span class="apidocSignatureSpan">(fileName, content, moduleName, moduleVar)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">html2js = function (fileName, content, moduleName, moduleVar) {
-  var escapedContent = escapeContent(content);
-
-  var output = null;
-  moduleVar = moduleVar || 'module';
-  if (moduleName) {
-    output = util.format(SINGLE_MODULE_TMPL,
-        moduleVar,
-        moduleVar, moduleName,
-        moduleVar, moduleName,
-        moduleVar,
-        fileName, escapedContent);
-  } else {
-    output = util.format(TMPL, moduleVar, fileName, moduleVar, fileName, escapedContent);
-  }
-
-  return output;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.ng-html2js.toString" id="apidoc.element.ng-html2js.toString">
-        function <span class="apidocSignatureSpan">ng-html2js.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.ng-html2js.toString" id="apidoc.module.ng-html2js.toString">module ng-html2js.toString</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.ng-html2js.toString.toString" id="apidoc.element.ng-html2js.toString.toString">
-        function <span class="apidocSignatureSpan">ng-html2js.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
