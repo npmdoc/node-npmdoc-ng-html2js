@@ -1,4 +1,7 @@
-# api documentation for  [ng-html2js (v3.0.0)](https://github.com/yaru22/ng-html2js#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ng-html2js.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ng-html2js) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ng-html2js.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ng-html2js)
+# npmdoc-ng-html2js
+
+#### basic api documentation for  [ng-html2js (v3.0.0)](https://github.com/yaru22/ng-html2js#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ng-html2js.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ng-html2js) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ng-html2js.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ng-html2js)
+
 #### Standalone script to turn Angular template into js and put it in a module.
 
 [![NPM](https://nodei.co/npm/ng-html2js.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ng-html2js)
